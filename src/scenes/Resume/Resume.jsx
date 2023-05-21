@@ -1,36 +1,34 @@
-import s from './Resume.module.scss';
-import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
-import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
-import { useEffect, useRef, useState } from 'react';
-import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
-import Button from '../../components/UIElements/Button/Button';
+import s from "./Resume.module.scss";
+import { ReactComponent as FilesIcon } from "../../assets/resume-files.svg";
+import { ReactComponent as DownloadIcon } from "../../assets/download.svg";
+import { useEffect, useRef, useState } from "react";
+import BaseLayout from "../../layouts/BaseLayout/BaseLayout";
+import LinerProgress from "../../components/UIElements/LinearProgress/LinerProgress";
+import Button from "../../components/UIElements/Button/Button";
 //react-pdf
-import { Document, Page, pdfjs } from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/prajeshy/certs/a4134b963aff911238d53c00fb7c89cb23c6512c/Prajesh%20Resume-Whithout%20Photo.pdf';
+  "https://raw.githubusercontent.com/prajeshy/certs/a4134b963aff911238d53c00fb7c89cb23c6512c/Prajesh%20Resume-Whithout%20Photo.pdf";
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
   useEffect(() => {
-    setPdfPageWidth(
-      pdfWrapper.current?.getBoundingClientRect().width || null,
-    );
+    setPdfPageWidth(pdfWrapper.current?.getBoundingClientRect().width || null);
   }, []);
 
   const removeTextLayerOffset = () => {
     const textLayers = document.querySelectorAll(
-      '.react-pdf__Page__textContent',
+      ".react-pdf__Page__textContent"
     );
     textLayers.forEach((layer) => {
       const { style } = layer;
-      style.top = '0';
-      style.left = '0';
-      style.transform = '';
+      style.top = "0";
+      style.left = "0";
+      style.transform = "";
     });
   };
 
@@ -48,7 +46,7 @@ const Resume = () => {
         </div>
 
         <Button
-          style={{ margin: 'auto', width: '15rem' }}
+          style={{ margin: "auto", width: "15rem" }}
           className="primary"
           href={resumeLink}
           target="_blank"
