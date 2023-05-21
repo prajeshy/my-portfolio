@@ -8,7 +8,7 @@ const Logo = ({ className }) => {
       <Link to={routes.HOME} aria-label="site logo">
   
 
-      <img src={require('./P-Y-1.png') }width="75" height = "50"/>
+      <img src={require('./logo.png') }width="50" height = "50"/>
         {/* <svg
           fill={s.logoPrimary}
           viewBox="7.214 3.885 305.772 87.68"
