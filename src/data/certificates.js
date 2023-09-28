@@ -3,6 +3,24 @@ const data = [
   
   {
     id: '1',
+    title: 'Cisco - Ethical Hacker',
+    description:'',
+    image: {
+      // src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/dh25wzswd/image/upload/v1695892884/Ethical_Hacker_Badge20230925-33-83kuns-1_rzmpls.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
+      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+    },
+    technologies: [
+     ' Cisco''s ethical hacker course teaches you the skills to identify and exploit security vulnerabilities in networks and systems.'
+    ],
+  },
+  {
+    id: '2',
     title: 'Google Cybersecurity Professional ',
     description:'',
     image: {
@@ -20,7 +38,7 @@ const data = [
     ],
   },
   {
-    id: '2',
+    id: '3',
     title: 'Certified in Cybersecurity (1M Self-Paced) by ISC2',
     description:
       '',
@@ -38,7 +56,8 @@ const data = [
      'I completed the Certified in Cybersecurity (CySA+) course from ISC2. I learned about the fundamentals of cybersecurity, including threat analysis, risk assessment, and incident response. I also gained hands-on experience with industry standard tools and techniques.'
     ],
   },
-  id: '3',
+  {
+  id: '4',
     title: 'Salesforce Administrator ',
     description:'',
     image: {
@@ -56,7 +75,7 @@ const data = [
     ],
   },
   {
-    id: '4',
+    id: '5',
     title: 'Getting Started with Vulnerability Analysis and Management',
     description:
       '',
@@ -76,7 +95,7 @@ const data = [
   },
   
   {
-    id: '5',
+    id: '6',
     title: 'In the Trenches: Security Operations Center',
     description:
       '',
@@ -96,7 +115,7 @@ const data = [
   },
   
   {
-    id: '6',
+    id: '7',
     title: ' Ethical Hacking/Penetration Testing & Bug Bounty Hunting',
     description:
       '',
@@ -115,7 +134,7 @@ const data = [
     ],
   },
     {
-    id: '7',
+    id: '8',
     title: ' Ethical Hacking/Penetration Testing & Bug Bounty Hunting v2',
     description:
       '',
@@ -135,7 +154,7 @@ const data = [
   },
   
   {
-    id: '8',
+    id: '9',
     title: 'Google : Crash Course on Python',
     description:
       '',
@@ -156,7 +175,7 @@ const data = [
     
   
   {
-    id: '9',
+    id: '10',
     title: 'Ethical Hacking and Cybersecurity',
     description:
       '',
@@ -175,7 +194,7 @@ const data = [
     ],
   },
   {
-    id: '10',
+    id: '11',
     title: 'Linux for Network Engineers Practical Linux with GSN3',
     description:
      '',
@@ -193,7 +212,7 @@ const data = [
     ],
   },
   {
-    id: '11',
+    id: '12',
     title: 'Complete CCNP ENCOR (350-401) Master Class',
     description:
      '',
@@ -211,7 +230,7 @@ const data = [
     ],
   },
   {
-    id: '12',
+    id: '13',
     title: 'Usable Security',
     description:
       '',
@@ -229,7 +248,7 @@ const data = [
     ],
   },
   {
-    id: '13',
+    id: '14',
     title: 'Wireshark for Basic Network Security Analysis',
     description:
       '',
@@ -247,7 +266,7 @@ const data = [
     ],
   },
   {
-    id: '14',
+    id: '15',
     title: 'Database Foundation by Oracle Academy',
     description:
       '',
@@ -265,7 +284,7 @@ const data = [
     ],
   },
   {
-    id: '15',
+    id: '16',
     title: 'Blockchain Specialization ',
     description:
       '',
@@ -283,7 +302,7 @@ const data = [
     ],
   },
   {
-    id: '16',
+    id: '17',
     title: 'Object Orineted Programming in Java',
     description:
       '',
@@ -301,7 +320,7 @@ const data = [
     ],
   },
   {
-    id: '17',
+    id: '18',
     title: 'Java Programming : Solving Problem using Software',
     description:
     '',
@@ -318,7 +337,7 @@ const data = [
     ],
   },
   {
-    id: '18',
+    id: '19',
     title: 'C++ : From Beginner to Expert',
     description:
    '',
