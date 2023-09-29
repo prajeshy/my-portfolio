@@ -16,7 +16,7 @@ const data = [
       repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
     },
     technologies: [
-     ' Cisco''s ethical hacker course teaches you the skills to identify and exploit security vulnerabilities in networks and systems.',
+     ' CISCOs ethical hacker course teaches you the skills to identify and exploit security vulnerabilities in networks and systems.'
     ],
   },
   {
