@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  "https://res.cloudinary.com/dh25wzswd/image/upload/v1695901250/final_Prajesh_Yeotikar_Resume_3_yrgbvu-Banner_169-1_c6cgxs.png";
+  "https://prajeshportfolio.s3.ap-south-1.amazonaws.com/PrajeshYeotikar.pdf";
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
