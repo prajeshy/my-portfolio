@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
             <li className={s.socialLink}>
             <a
-              href="mailto:prajesh@prajesh.me"
+              href="mailto:prajesh.infosec@gmail.com"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
