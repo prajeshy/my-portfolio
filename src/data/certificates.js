@@ -3,6 +3,24 @@ const data = [
   
   {
     id: '1',
+    title: 'Splunk Certified Cybersecurity Defence Analyst',
+    description:'Splunk',
+    image: {
+      // src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/diywo16v5/image/upload/v1700933562/SplunkCertifiedCybersecurityDefenseAnalyst_Badge20231125-29-imawym-1_xu6sqd.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
+      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+    },
+    technologies: [
+     ' CISCOs ethical hacker course teaches you the skills to identify and exploit security vulnerabilities in networks and systems.'
+    ],
+  },
+  {
+    id: '2',
     title: 'Cisco - Ethical Hacker',
     description:'',
     image: {
@@ -20,7 +38,7 @@ const data = [
     ],
   },
   {
-    id: '2',
+    id: '3',
     title: 'Google Cybersecurity Professional ',
     description:'',
     image: {
@@ -38,7 +56,7 @@ const data = [
     ],
   },
   {
-    id: '3',
+    id: '4',
     title: 'Certified in Cybersecurity (1M Self-Paced) by ISC2',
     description:
       '',
@@ -57,7 +75,7 @@ const data = [
     ],
   },
   {
-  id: '4',
+  id: '5',
     title: 'Salesforce Administrator ',
     description:'',
     image: {
@@ -75,7 +93,7 @@ const data = [
     ],
   },
   {
-    id: '5',
+    id: '6',
     title: 'Getting Started with Vulnerability Analysis and Management',
     description:
       '',
@@ -95,7 +113,7 @@ const data = [
   },
   
   {
-    id: '6',
+    id: '7',
     title: 'In the Trenches: Security Operations Center',
     description:
       '',
@@ -115,7 +133,7 @@ const data = [
   },
   
   {
-    id: '7',
+    id: '8',
     title: ' Ethical Hacking/Penetration Testing & Bug Bounty Hunting',
     description:
       '',
@@ -134,7 +152,7 @@ const data = [
     ],
   },
     {
-    id: '8',
+    id: '9',
     title: ' Ethical Hacking/Penetration Testing & Bug Bounty Hunting v2',
     description:
       '',
@@ -154,7 +172,7 @@ const data = [
   },
   
   {
-    id: '9',
+    id: '10',
     title: 'Google : Crash Course on Python',
     description:
       '',
@@ -175,7 +193,7 @@ const data = [
     
   
   {
-    id: '10',
+    id: '11',
     title: 'Ethical Hacking and Cybersecurity',
     description:
       '',
@@ -194,7 +212,7 @@ const data = [
     ],
   },
   {
-    id: '11',
+    id: '12',
     title: 'Linux for Network Engineers Practical Linux with GSN3',
     description:
      '',
@@ -212,7 +230,7 @@ const data = [
     ],
   },
   {
-    id: '12',
+    id: '13',
     title: 'Complete CCNP ENCOR (350-401) Master Class',
     description:
      '',
@@ -230,7 +248,7 @@ const data = [
     ],
   },
   {
-    id: '13',
+    id: '14',
     title: 'Usable Security',
     description:
       '',
@@ -248,7 +266,7 @@ const data = [
     ],
   },
   {
-    id: '14',
+    id: '15',
     title: 'Wireshark for Basic Network Security Analysis',
     description:
       '',
@@ -266,7 +284,7 @@ const data = [
     ],
   },
   {
-    id: '15',
+    id: '16',
     title: 'Database Foundation by Oracle Academy',
     description:
       '',
@@ -284,7 +302,7 @@ const data = [
     ],
   },
   {
-    id: '16',
+    id: '17',
     title: 'Blockchain Specialization ',
     description:
       '',
@@ -302,7 +320,7 @@ const data = [
     ],
   },
   {
-    id: '17',
+    id: '18',
     title: 'Object Orineted Programming in Java',
     description:
       '',
@@ -320,7 +338,7 @@ const data = [
     ],
   },
   {
-    id: '18',
+    id: '19',
     title: 'Java Programming : Solving Problem using Software',
     description:
     '',
@@ -337,7 +355,7 @@ const data = [
     ],
   },
   {
-    id: '19',
+    id: '20',
     title: 'C++ : From Beginner to Expert',
     description:
    '',
